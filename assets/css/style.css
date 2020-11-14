@@ -6,13 +6,7 @@
     margin: 0;
 }
 
-.hero-image {    
-    height: 100vh;
-
-    background: linear-gradient(rgba(0,0,0,0.29),rgba(0,0,0,0.29)),url("../images/hero2.jpg") no-repeat center center; 
-    background-color: #000;
-    background-size: cover;
-}
+/* navbar */
 
 .container-fluid.navbar.bg-dark.navbar-expand-sm.fixed-top {
     padding-top: 1px;
@@ -43,6 +37,16 @@ a.navbar-brand.now {
     color: #fff;
     font-family: 'Great Vibes', cursive;
     font-size: 25px;
+}
+
+/* home page */
+
+.hero-image {    
+    height: 100vh;
+
+    background: linear-gradient(rgba(0,0,0,0.29),rgba(0,0,0,0.29)),url("../images/hero2.jpg") no-repeat center center; 
+    background-color: #000;
+    background-size: cover;
 }
 
 #ccsearch {
@@ -116,6 +120,8 @@ footer {
     padding-right: 35px;
 
 }
+
+
 @media screen and (max-width:320px) {
     a.navbar-brand.now {
        font-size: 17px;;

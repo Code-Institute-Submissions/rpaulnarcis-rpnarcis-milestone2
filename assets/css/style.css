@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=News+Cycle&display=swap');
+
 *
 {
     padding: 0;
@@ -16,3 +18,33 @@
   background: none;
 }
 
+i.fa.fas.fa-bars {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    padding-top: 5px;
+}
+
+a.nav-link {
+    color: #fff;
+}
+
+.btn {
+    color: #fff;
+}
+
+a.navbar-brand.now {
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+
+
+
+@media screen and (max-width:320px) {
+    a.navbar-brand.now {
+        font-size: 20px;
+    }
+}

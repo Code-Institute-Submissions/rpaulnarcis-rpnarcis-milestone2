@@ -88,15 +88,46 @@ a.navbar-brand.now {
     border-radius: 30px;
     box-shadow: none;
 }
+
+/* Footer */
+
+.footer {
+    padding: 80px 20px;
+    background-color: #343a40;
+}
+footer {
+    color: #fff;
+}
+
+.container-fluid.bg-dark {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footer h4 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.footer p {
+    font-size:12px;
+    text-align: justify;
+    padding-right: 35px;
+
+}
 @media screen and (max-width:320px) {
     a.navbar-brand.now {
-        font-size: 20px;
+       font-size: 17px;;
 }
 
 .navbar-nav.ml-auto {
     font-size: 13px;
 }
 
+.navbar-toggler-icon {
+    padding-top: 10px;
+}
 #callout {
     font-size: 30px;
 }

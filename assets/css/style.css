@@ -1,0 +1,17 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.hero-image {    
+    height: 100vh;
+
+    background:url("../images/hero2.jpg") no-repeat center center; 
+    background-color: #000;
+    background-size: cover;
+}
+
+.navbar-default {
+  background: none;
+}

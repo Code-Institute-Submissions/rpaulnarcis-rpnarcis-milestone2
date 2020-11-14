@@ -9,9 +9,14 @@
 .hero-image {    
     height: 100vh;
 
-    background:url("../images/hero2.jpg") no-repeat center center; 
+    background: linear-gradient(rgba(0,0,0,0.29),rgba(0,0,0,0.29)),url("../images/hero2.jpg") no-repeat center center; 
     background-color: #000;
     background-size: cover;
+}
+
+.container-fluid.navbar.bg-dark.navbar-expand-sm.fixed-top {
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .navbar-default {
@@ -37,14 +42,67 @@ a.nav-link {
 a.navbar-brand.now {
     color: #fff;
     font-family: 'Great Vibes', cursive;
-    font-size: 30px;
+    font-size: 25px;
 }
 
+#ccsearch {
+    padding-top: 250px;
+}
 
+#callout {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
 
+#callout-p {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
 
+.input-group {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+.form-control {
+    border: 0;
+    border-radius: 30px;
+    margin: 2px;
+    box-shadow: none;
+}
+
+.input-group-text {
+    height: 40px;
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0;
+    color: #fff;
+    padding: 0 25px;
+    border-radius: 30px;
+    box-shadow: none;
+}
 @media screen and (max-width:320px) {
     a.navbar-brand.now {
         font-size: 20px;
-    }
+}
+
+.navbar-nav.ml-auto {
+    font-size: 13px;
+}
+
+#callout {
+    font-size: 30px;
+}
+
+.input-group {
+    padding: 0;
+}
+
 }

@@ -99,6 +99,8 @@ a.navbar-brand.now {
     padding: 80px 20px;
     background-color: #343a40;
 }
+
+
 footer {
     color: #fff;
 }
@@ -123,14 +125,19 @@ footer {
 
 /* packages */
 
+.container.packages {
+    padding-bottom: 40px;
+}
+
 .features {
-    padding: 100px 0;
+    padding: 100px 0 -5px 0;
 }
 
 .destination {
     font-family: 'News Cycle', sans-serif;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .price {
@@ -153,6 +160,7 @@ footer {
     background: #fff;
     bottom: -1px;
     right: 0px;
+    margin-top: -50px;
 }
 
 .features .fa {
@@ -210,5 +218,26 @@ h4 {
 .navbar {
     width: auto;
     overflow-x: hidden;
+}
+
+.rating {
+    padding-right: 40px;
+}
+
+.destination {
+    padding-top: 70px;
+}
+
+.container.packages {
+    padding-bottom: 10px;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 0;
 }
 }

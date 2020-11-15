@@ -121,10 +121,55 @@ footer {
 
 }
 
+/* packages */
+
+.features {
+    padding: 100px 0;
+}
+
+.destination {
+    font-family: 'News Cycle', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.price {
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    right: -30px;
+    bottom: -25px;
+}
+
+.rating {
+    margin-left: 15px;
+    padding: 0px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0px;
+}
+
+.features .fa {
+    font-size: 15px;
+    color: #ff5722;
+}
+
+.features p {
+    margin-bottom: 30px;
+    float:right;
+}
+
+
 
 @media screen and (max-width:320px) {
     a.navbar-brand.now {
-       font-size: 17px;;
+       font-size: 23px;
 }
 
 .navbar-nav.ml-auto {
@@ -135,11 +180,35 @@ footer {
     padding-top: 10px;
 }
 #callout {
-    font-size: 30px;
+    font-size: 29px;
 }
 
 .input-group {
     padding: 0;
 }
 
+.destination {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+img {
+    height: 30vh;
+}
+
+.price {
+    width: 45px;
+    height: 45px;
+    font-weight: 400;
+    right: -15px;   
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.navbar {
+    width: auto;
+    overflow-x: hidden;
+}
 }

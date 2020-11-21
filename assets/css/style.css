@@ -210,6 +210,18 @@ h4 {
 .stay span {
     color: black;
 }
+
+.featured-box {
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+}
+
+.discription{
+    margin: 0 10px 0 10px;
+}
+
+.detailes {
+    margin-left: 10px;
+}
 @media screen and (max-width:320px) {
     a.navbar-brand.now {
        font-size: 23px;

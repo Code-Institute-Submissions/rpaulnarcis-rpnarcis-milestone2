@@ -225,7 +225,7 @@ h4 {
 
 /* Gallery */
 *{margin: 0; padding: 0;}
-body{background-color: black;}
+.body{background-color: white;}
 .container
 {
 width: 100%;
@@ -244,10 +244,10 @@ transition: all 1s ease;
 display: flex;
 width: 80vw;
 height: 80vh;
-margin-top: 10vh;
+margin-top: 5vh;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 10vh;
+margin-bottom: 8vh;
 }
 .top ul
 {
@@ -344,6 +344,13 @@ transform: translateY(-50%);
 -ms-transform: translateY(-50%);
 -o-transform: translateY(-50%);
 -webkit-transform: translateY(-50%);
+}
+
+.gallery-header {
+    color: #000;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
 }
 
 

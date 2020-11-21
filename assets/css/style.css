@@ -215,7 +215,7 @@ h4 {
     box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
 }
 
-.discription{
+.discription {
     margin: 0 10px 0 10px;
 }
 
@@ -307,5 +307,16 @@ h1 {
 .stay {
     font-size: 2px;
 }
+
+.discription {
+    margin: 0;
 }
 
+.detailes {
+    margin-left: 5px;
+}
+
+.dimg {
+    width: 114%;
+}
+}

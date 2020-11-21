@@ -123,6 +123,10 @@ footer {
 
 }
 
+.col-md-3.d-none.d-md-block.nav {
+    padding-top: 30px;
+}
+
 /* packages */
 
 .container.packages {
@@ -138,19 +142,14 @@ footer {
     text-align: center;
     padding-bottom: 50px;
     padding-top: 100px;
+    
 }
-
-.price {
-    width: 50px;
-    height: 50px;
-    background: #ff5722;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 50%;
-    padding: 10px;
-    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
-    right: -30px;
-    bottom: -25px;
+h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.feature-img {
+    position: relative;
 }
 
 .rating {
@@ -161,11 +160,12 @@ footer {
     bottom: -1px;
     right: 0px;
     margin-top: -50px;
+    padding-top: 50px;
 }
 
 .features .fa {
     font-size: 15px;
-    color: #ff5722;
+    color: #ff9c07
 }
 
 .features p {
@@ -173,8 +173,43 @@ footer {
     float:right;
 }
 
+.feature-detailes h4 {
+    padding-top: 30px;
+    
+}
 
+.hotel {
+    font-size: 15px;
+}
 
+.back_image {
+    background:url("British Virgin Islands.jpg");
+    width: 500px;
+    height: 333px;
+    position: relative;
+}
+
+.vertical_text {
+    position: absolute;
+    width: 500px;
+    bottom: 0;
+    padding: 15px 0;
+    background-color: rgba(37,34,34,0.6);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    display: none;   
+    
+}
+
+.stay {
+    margin-right: 5px;
+}
+
+.stay span {
+    color: black;
+}
 @media screen and (max-width:320px) {
     a.navbar-brand.now {
        font-size: 23px;
@@ -222,10 +257,12 @@ h4 {
 
 .rating {
     padding-right: 40px;
+    font-size: 2px;
 }
 
 .destination {
     padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 .container.packages {
@@ -240,4 +277,23 @@ h4 {
 h1 {
     margin-bottom: 0;
 }
+
+.back_image {
+    height: 170px;
+    width: 255px;
+    position: relative;
 }
+
+.vertical_text {
+    width: 255px;
+    font-size: 10px;
+    position: absolute;
+     padding: 10px 0;
+
+}
+
+.stay {
+    font-size: 2px;
+}
+}
+

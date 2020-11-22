@@ -309,13 +309,22 @@ h4 {
 }
 
 .rating {
-    padding-right: 40px;
+    padding-right: 15px;
     font-size: 2px;
 }
 
+.dimg {
+    height: 170px;
+    width: 315px;
+    margin-left: 2px;
+}
+
+}
 .destination {
-    padding-top: 70px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .container.packages {
@@ -351,12 +360,17 @@ h1 {
 
 .discription {
     margin: 0;
-}
-
-.detailes {
     margin-left: 5px;
+    margin-right: 5px;
+}
+    
+.detailes {
+    margin-left: 5px;    
 }
 
+h4.detailes {
+    padding-top: 20px;
+}
 .gallery {
     contain: layout;
     
@@ -409,5 +423,9 @@ p.footer-content {
 
 h4.footer-header {
     font-size: 15px;
+}
+
+.container {
+    padding: 0;
 }
 }

@@ -3,3 +3,4 @@ $(document) .ready(function() {
         $(".vertical_text") .fadeToggle("slow");
     });
 });
+

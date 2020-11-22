@@ -374,7 +374,40 @@ h1 {
 .gallery {
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#travel-header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+
+.footer-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+    float: left;
+    
+}
+
+p.footer-content {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.comtainer-footer {
+    position: absolute;
     margin-bottom: 10px;
+}
+
+h4.footer-header {
+    font-size: 15px;
 }
 }

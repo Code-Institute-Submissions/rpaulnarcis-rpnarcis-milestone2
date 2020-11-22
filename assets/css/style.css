@@ -144,10 +144,12 @@ footer {
     padding-top: 100px;
     
 }
+
 h4 {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
 .feature-img {
     position: relative;
 }
@@ -263,8 +265,9 @@ h4 {
 }
 
 
-@media screen and (max-width:320px) {
-    a.navbar-brand.now {
+@media only screen and (max-width:320px) {
+    
+a.navbar-brand.now {
        font-size: 23px;
 }
 
@@ -275,17 +278,13 @@ h4 {
 .navbar-toggler-icon {
     padding-top: 10px;
 }
+
 #callout {
     font-size: 29px;
 }
 
 .input-group {
     padding: 0;
-}
-
-.destination {
-    font-size: 25px;
-    padding-bottom: 10px;
 }
 
 img {
@@ -299,8 +298,8 @@ img {
     right: -15px;   
 }
 
-h4 {
-    font-size: 20px;
+#text {
+    font-size: 15px;
 }
 
 .navbar {
@@ -308,22 +307,26 @@ h4 {
     overflow-x: hidden;
 }
 
-.rating {
-    padding-right: 15px;
+div.rating {
     font-size: 2px;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-right: 10px;
 }
+
+
 
 .dimg {
     height: 170px;
     width: 315px;
     margin-left: 2px;
-}
+    
+}    
 
-}
 .destination {
-    padding-top: 60px;
-    padding-bottom: 15px;
-    font-size: 25px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -354,30 +357,41 @@ h1 {
 
 }
 
-.stay {
+div.stay {
     font-size: 2px;
+    margin-top:70px;
 }
 
-.discription {
-    margin: 0;
+p.discription {
+    margin-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-right: 0px;
 }
     
 .detailes {
     margin-left: 5px;    
 }
 
-h4.detailes {
-    padding-top: 20px;
+div.feature-detailes {
+   padding-top: 5px;
+    margin-top: 0px;
 }
+
+h4.detailes {
+    padding-top: 270px;
+    font-size: 15px;
+}
+
 .gallery {
     contain: layout;
     
 }
+
 .gimg {
     width: 212px;
     height: 212px;
+    
 }
 
 .container-fluid.img {
@@ -395,7 +409,7 @@ h4.detailes {
 #travel-header {
     font-size: 25px;
     font-weight: 600;
-    padding-top: 60px;
+    padding-top: 70px;
     padding-bottom: 5px;
 }
 
@@ -428,4 +442,123 @@ h4.footer-header {
 .container {
     padding: 0;
 }
+
+nav.container-fluid.navbar.bg-dark.navbar-expand-sm.fixed-top {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
+}
+
+@media only screen and (max-width:375px)  {
+
+img.dimg {
+    width: 370px;
+    height: 230px;
+}
+
+ a.navbar-brand.now {
+       font-size: 23px;
+}
+
+
+
+.destination {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+img.dimg {
+    height: 240px;
+    width: 370px;
+    margin-left: 2px;
+    margin-right: 3px;
+}
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#text {
+    font-size: 20px;
+}
+.feature-detailes {
+    
+    margin-left: 5px;
+}
+
+.rating {
+    margin-right: 0px;
+    padding-right: 130px;
+    border-right-width: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.container {
+    contain: layout;
+}
+
+.discription {
+    margin-left: 3px;
+    margin-right: 10px;
+    padding-right: 120px;
+    margin-top: -15px;
+}
+
+.stay {
+    margin-top: -95px;
+}
+
+.rating {
+    margin-top: -95px;
+}
+
+h4.detailes {
+    font-size: 20px;
+    margin-left: 2px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+span.hotel {
+    font-size: 13px;
+}
+
+.footer-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+    float: left;
+    
+}
+
+p.footer-content {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+}
+
+.comtainer-footer {
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+h4.footer-header {
+    font-size: 18px;
+}
+
+section.footer {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+}
+

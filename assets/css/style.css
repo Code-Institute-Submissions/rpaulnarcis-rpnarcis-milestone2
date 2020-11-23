@@ -165,6 +165,10 @@ h4 {
     padding-top: 50px;
 }
 
+div.rating {
+    margin-right: 40px;
+}
+
 .features .fa {
     font-size: 15px;
     color: #ff9c07
@@ -213,9 +217,7 @@ h4 {
     color: black;
 }
 
-.featured-box {
-    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
-}
+
 
 .discription {
     margin: 0 10px 0 10px;
@@ -291,6 +293,35 @@ img {
     height: 30vh;
 }
 
+.back_image {
+    background:url("British Virgin Islands.jpg");
+    width: 260px;
+    height: 333px;
+    position: relative;
+    
+}
+
+.vertical_text {
+    position: absolute;
+    width: 330px;
+    bottom: 90px;
+    padding: 10px 0;
+    background-color: rgba(37,34,34,0.6);
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    display: none;   
+    
+}
+
+.dimg {
+    height: 170px;
+    width: 315px;
+    margin-left: 2px;
+    
+}    
+
 .price {
     width: 45px;
     height: 45px;
@@ -309,19 +340,10 @@ img {
 
 div.rating {
     font-size: 2px;
-    margin-top: 30px;
-    padding-top: 40px;
+    margin-top: -90px;
+    padding-top: 0px;
     padding-right: 10px;
 }
-
-
-
-.dimg {
-    height: 170px;
-    width: 315px;
-    margin-left: 2px;
-    
-}    
 
 .destination {
     padding-top: 70px;
@@ -343,23 +365,11 @@ h1 {
     margin-bottom: 0;
 }
 
-.back_image {
-    height: 170px;
-    width: 255px;
-    position: relative;
-}
 
-.vertical_text {
-    width: 255px;
-    font-size: 10px;
-    position: absolute;
-     padding: 10px 0;
-
-}
 
 div.stay {
     font-size: 2px;
-    margin-top:70px;
+    margin-top:-90px;
 }
 
 p.discription {

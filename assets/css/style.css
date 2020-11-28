@@ -105,128 +105,90 @@ footer {
     color: #fff;
 }
 
-.container-fluid.bg-dark {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-.footer h4 {
-    font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-.footer p {
-    font-size:12px;
-    text-align: justify;
-    padding-right: 35px;
-
-}
-
-.col-md-3.d-none.d-md-block.nav {
-    padding-top: 30px;
-}
 
 /* packages */
-
-.container.packages {
-    padding-bottom: 40px;
-}
-
-.features {
-    padding: 100px 0 -5px 0;
-}
-
-.destination {
-    font-family: 'News Cycle', sans-serif;
+#features-header {
+    margin-top: 100px;
     text-align: center;
-    padding-bottom: 50px;
-    padding-top: 100px;
-    
+    margin-bottom: 50px;
+}
+ .dimg {
+     width: 550px;
+ }
+
+.rating {
+    padding-left: 460px;
+    color: #efb50afc;
 }
 
-h4 {
+.featured-img {
+    position: relative;
+}
+
+.stay {
+    position: absolute;
+    margin-top: -23px;
+}
+
+i.fa.fa-moon-o {
+    color: #0a7efb;
+}
+
+i.fa.fa-sun-o {
+    color: #daa506;
+}
+
+span{
+    color: #000;
+}
+
+h4.detailes {
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-.feature-img {
-    position: relative;
+#map {
+    height: 690px;
+    width: 100%;
 }
 
-.rating {
-    margin-left: 15px;
-    padding: 0px;
-    float: right;
-    background: #fff;
-    bottom: -1px;
-    right: 0px;
-    margin-top: -50px;
-    padding-top: 50px;
+#map1 {
+    height: 690px;
+    width: 100%;
 }
 
-div.rating {
-    margin-right: 40px;
+#map2 {
+    height: 665px;
+    width: 100%;
 }
 
-.features .fa {
-    font-size: 15px;
-    color: #ff9c07
+div.container {
+    margin-top: 50px;
 }
 
-.features p {
-    margin-bottom: 30px;
-    float:right;
+#map3 {
+    height: 720px;
+    width: 100%;
 }
 
-.feature-detailes h4 {
-    padding-top: 30px;
-    
+#map4 {
+    height: 665px;
+    width: 100%;
 }
 
-.hotel {
-    font-size: 15px;
+#map5 {
+    height: 645px;
+    width: 100%;
 }
 
-.back_image {
-    background:url("British Virgin Islands.jpg");
-    width: 500px;
-    height: 333px;
-    position: relative;
+#map6 {
+    height: 665px;
+    width: 100%;
 }
 
-.vertical_text {
-    position: absolute;
-    width: 500px;
-    bottom: 0;
-    padding: 15px 0;
-    background-color: rgba(37,34,34,0.6);
-    font-size: 20px;
-    font-weight: 600;
-    color: #fff;
-    text-align: center;
-    display: none;   
-    
+div.container.last {
+    margin-bottom: 60px;
 }
-
-.stay {
-    margin-right: 5px;
-}
-
-.stay span {
-    color: black;
-}
-
-
-
-.discription {
-    margin: 0 10px 0 10px;
-}
-
-.detailes {
-    margin-left: 10px;
-}
-
 /* Gallery */
 #travel-header {
     padding-top: 80px;
@@ -266,6 +228,10 @@ div.rating {
 
 }
 
+.container-fluid.packages {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 @media only screen and (max-width:320px) {
     

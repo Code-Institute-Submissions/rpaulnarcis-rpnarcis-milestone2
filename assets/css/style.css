@@ -105,7 +105,38 @@ footer {
     color: #fff;
 }
 
+.container.footer {
+   display: inline-block;
+    margin: 0 auto;
+}
 
+.footer-header {
+    letter-spacing: 2px;
+}
+
+.footer-content {
+    font-size: 17px;
+}
+
+.fa.fa-phone-square {
+    color: #00ff7e;
+}
+
+.fa.fa-envelope {
+    color:#daa506;
+}
+
+.fa.fa-home {
+    color: #c4302b;
+}
+
+.fa.fab.fa-twitter-square {
+    color: #71b5bf;
+}
+
+.fa.fab.fa-youtube-square {
+    color: #FF0000;
+}
 /* packages */
 #features-header {
     margin-top: 100px;

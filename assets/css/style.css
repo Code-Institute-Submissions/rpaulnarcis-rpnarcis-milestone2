@@ -282,6 +282,21 @@ a.navbar-brand.now {
     font-size: 29px;
 }
 
+h1#features-header {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding-top: 70px
+}
+
+h4.detailes {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 3px;
+}
+
 .input-group {
     padding: 0;
 }
@@ -290,27 +305,6 @@ img {
     height: 30vh;
 }
 
-.back_image {
-    background:url("British Virgin Islands.jpg");
-    width: 260px;
-    height: 333px;
-    position: relative;
-    
-}
-
-.vertical_text {
-    position: absolute;
-    width: 330px;
-    bottom: 90px;
-    padding: 10px 0;
-    background-color: rgba(37,34,34,0.6);
-    font-size: 15px;
-    font-weight: 600;
-    color: #fff;
-    text-align: center;
-    display: none;   
-    
-}
 
 .dimg {
     height: 170px;
@@ -318,13 +312,6 @@ img {
     margin-left: 2px;
     
 }    
-
-.price {
-    width: 45px;
-    height: 45px;
-    font-weight: 400;
-    right: -15px;   
-}
 
 #text {
     font-size: 15px;
@@ -336,21 +323,22 @@ img {
 }
 
 div.rating {
-    font-size: 2px;
-    margin-top: -90px;
-    padding-top: 0px;
-    padding-right: 10px;
+   
+    font-size: 15px;
+    margin-top: 0px;
+    padding-left: 240px;
+    padding-right: 0px;
 }
 
 .destination {
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 10px;
     font-size: 15px;
     font-weight: 600;
 }
 
 .container.packages {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .footer {
@@ -362,12 +350,12 @@ h1 {
     margin-bottom: 0;
 }
 
-
-
 div.stay {
-    font-size: 2px;
-    margin-top:-90px;
+    padding-top: 0px;
+    font-size: 15px;
+    margin-top: -25px;
 }
+
 
 p.discription {
     margin-top: 15px;
@@ -376,18 +364,43 @@ p.discription {
     padding-right: 0px;
 }
     
-.detailes {
-    margin-left: 5px;    
-}
+
 
 div.feature-detailes {
    padding-top: 5px;
     margin-top: 0px;
 }
 
-h4.detailes {
-    padding-top: 270px;
-    font-size: 15px;
+#map {
+    height: 250px;
+}
+
+#map1 {
+    height: 250px;
+}
+
+#map2 {
+    height: 250px;
+}
+
+#map3 {
+    height: 250px;
+}
+
+#map5 {
+    height: 250px;
+}
+
+#map4 {
+    height: 250px;
+}
+
+#map5 {
+    height: 250px;
+}
+
+#map6 {
+    height: 250px;
 }
 
 .gallery {
@@ -406,6 +419,9 @@ h4.detailes {
     padding-right: 0;
 }
 
+div.container.last {
+    margin-bottom: 0px;
+}
 .gallery {
     margin-left: 0px;
     margin-right: 0px;
@@ -420,40 +436,25 @@ h4.detailes {
     padding-bottom: 5px;
 }
 
-.footer-header {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 15px;
-    text-align: center;
-    position: relative;
-    float: left;
-    
-}
-
-p.footer-content {
-    margin-top: 5px;
-    margin-bottom: 8px;
-    text-align: center;
-    position: relative;
-}
-
-.comtainer-footer {
-    position: absolute;
-    margin-bottom: 10px;
-}
-
 h4.footer-header {
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .container {
     padding: 0;
 }
 
+div.container {
+    margin-top: 0px;
+}
 nav.container-fluid.navbar.bg-dark.navbar-expand-sm.fixed-top {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+
+p.footer-content {
+    padding-left: 100px;
 }
 }
 

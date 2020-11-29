@@ -40,8 +40,8 @@ var markers = locations.map(function(location, i) {
 var locations = [
     {lat: 18.5145, lng: -77.8813},
     {lat: 18.5148, lng: -77.8808},
-    {lat: 18.5143, lng: - 77.8806}
-    
+    {lat: 18.5143, lng: - 77.8806},
+    {lat: 18.5209, lan: - 77.8686}
    
 ];
 
@@ -183,12 +183,8 @@ var markers = locations.map(function(location, i) {
         label: labels[i % labels.length]
     });
 });
-var markerCluster =  new MarkerClusterer(map6, markers,  
+var markerCluster =  new MarkerClusterer(map, markers,  
     {imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
 }
 
-// MDB Lightbox Init
-$(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-});
 

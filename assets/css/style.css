@@ -36,7 +36,7 @@ a.nav-link {
 a.navbar-brand.now {
     color: #fff;
     font-family: 'Great Vibes', cursive;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 /* home page */
@@ -50,7 +50,8 @@ a.navbar-brand.now {
 }
 
 #ccsearch {
-    padding-top: 250px;
+    padding-top: 300px;
+    margin-top: 40px;
 }
 
 #callout {
@@ -63,7 +64,7 @@ a.navbar-brand.now {
 #callout-p {
     text-align: center;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .input-group {
@@ -123,30 +124,25 @@ footer {
     font-size: 17px;
 }
 
-.fa.fa-phone-square {
-    color: #00ff7e;
-}
-
-.fa.fa-envelope {
-    color:#daa506;
-}
-
-.fa.fa-home {
-    color: #c4302b;
+.fa.fab.fa-facebook-square {
+    color: #fff;
 }
 
 .fa.fab.fa-twitter-square {
-    color: #71b5bf;
+    color: #fff;
 }
 
 .fa.fab.fa-youtube-square {
-    color: #FF0000;
+    color: #fff;
 }
 /* packages */
 #features-header {
-    margin-top: 100px;
+    margin-top: 105px;
     text-align: center;
     margin-bottom: 50px;
+    padding-top: 10px;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 600;
 }
  .dimg {
      width: 550px;
@@ -281,6 +277,49 @@ div.desc {
 
 .gallery {
     margin-top: 0px;
+}
+
+/*-- Restaurants --*/
+
+.restaurants {
+    padding:100px 0;
+    background: #efefef;
+}
+
+.gallery-box img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-box h4 {
+    display: block;
+    color: #fff;
+    text-shadow:  -2px 2px 2px #000;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#eating {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 600;
+}
 }
 @media only screen and (max-width:320px) {
     

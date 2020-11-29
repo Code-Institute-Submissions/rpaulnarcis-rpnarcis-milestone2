@@ -187,7 +187,8 @@ var markerCluster =  new MarkerClusterer(map6, markers,
     {imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
 }
 
-
-
-
+// MDB Lightbox Init
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
 

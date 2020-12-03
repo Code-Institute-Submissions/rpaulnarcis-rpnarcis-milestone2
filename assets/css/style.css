@@ -135,6 +135,10 @@ footer {
 .fa.fab.fa-youtube-square {
     color: #fff;
 }
+
+#text {
+    color: #fff;
+}
 /* packages */
 #features-header {
     margin-top: 105px;

@@ -40,12 +40,12 @@ var markers = locations.map(function(location, i) {
 var locations = [
     {lat: 18.5145, lng: -77.8813},
     {lat: 18.5148, lng: -77.8808},
-    {lat: 18.5143, lng: - 77.8806},
-    {lat: 18.5209, lan: - 77.8686}
+    {lat: 18.5143, lng: -77.8806},
+    {lat: 18.5157, lan: -77.8814}
    
 ];
 
-var markers = locations.map(function(location, i) {
+var markers1 = locations.map(function(location, i) {
     return new google.maps.Marker({
         position: location,
         map: map1,
@@ -183,8 +183,9 @@ var markers = locations.map(function(location, i) {
         label: labels[i % labels.length]
     });
 });
-var markerCluster =  new MarkerClusterer(map, markers,  
+var markerCluster =  new MarkerClusterer(map6, markers,   
     {imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
+   
 }
 
 

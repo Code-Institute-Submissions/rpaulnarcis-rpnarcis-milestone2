@@ -327,7 +327,7 @@ div.desc {
 
 /*-- About Us --*/
 #aboutus-header {
-    margin-top: 110px;
+    margin-top: 130px;
     text-align: center;
     font-family: 'News Cycle', sans-serif;
     font-weight: 600;
@@ -338,6 +338,7 @@ div.desc {
     font-weight: 600;
     padding-bottom: 60px;
     text-align: center;
+    font-family: 'News Cycle', sans-serif;
 }
 
 .aboutus-img {
@@ -352,6 +353,7 @@ div.desc {
 
 .customers-review {
     padding: 100px 0;
+    font-family: 'News Cycle', sans-serif;
 }
 
 .customer-review {
@@ -390,6 +392,7 @@ div.desc {
     padding-left: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family: 'News Cycle', sans-serif;
 }
 
 #important-p {
@@ -403,6 +406,7 @@ div.desc {
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 10px;
+    font-family: 'News Cycle', sans-serif;
     
 }
 

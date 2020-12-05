@@ -457,11 +457,15 @@ a.navbar-brand.now {
     font-size: 29px;
 }
 
-h1#features-header {
+#ccsearch {
     margin-top: 0px;
-    margin-bottom: 10px;
+    padding-top: 180px;
+}
+
+#features-header {
+    margin-bottom: 20px;
+    margin-top: 70px;
     font-size: 25px;
-    padding-top: 70px
 }
 
 h4.detailes {
@@ -539,8 +543,20 @@ p.discription {
     padding-right: 0px;
 }
     
+#eating {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 25px;
+}
 
+.restaurants {
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
 
+.gallery-box {
+    margin-bottom: 5px;
+}
 div.feature-detailes {
    padding-top: 5px;
     margin-top: 0px;
@@ -579,31 +595,39 @@ div.feature-detailes {
 }
 
 .gallery {
-    contain: layout;
-    
+    contain: layout;    
 }
 
-.gimg {
-    width: 212px;
-    height: 212px;
-    
+.container-fluid-gallery {
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
+#tgallery-head {
+    font-size: 25px;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 600;
+}
 .container-fluid.img {
     padding-left: 0;
     padding-right: 0;
+   
 }
 
 div.container.last {
     margin-bottom: 0px;
 }
 .gallery {
-    margin-left: 0px;
+    margin-left: 8px;
     margin-right: 0px;
     margin-top: 10px;
     margin-bottom: 0px;
+    
 }
 
+div.gallery {
+    margin-left: 8px;
+}
 #travel-header {
     font-size: 25px;
     font-weight: 600;
@@ -611,6 +635,25 @@ div.container.last {
     padding-bottom: 5px;
 }
 
+div.gallery img {
+    width: 300px;
+    
+}.col-md-4 {
+    margin-bottom: 45px;
+}
+
+div.gallery {
+    width: 305px;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
 h4.footer-header {
     font-size: 10px;
 }
@@ -631,7 +674,71 @@ nav.container-fluid.navbar.bg-dark.navbar-expand-sm.fixed-top {
 p.footer-content {
     padding-left: 100px;
 }
+
+#aboutus-header {
+    margin-top: 90px;
+    margin-bottom: 15px;
+    font-size: 25px;
 }
+
+#statment {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 20px;
+}
+
+section.customers-review {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#review {
+    font-size: 20px;
+}
+.col-md-4.about {
+    margin-bottom: 0;
+}
+
+.customer-review {
+    box-shadow: none;
+    
+}
+p::before {
+    font-size: 60px;
+}
+
+#important {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+
+#important-p {
+    font-size: 15px;
+}
+
+#cancel {
+    font-size: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cancel-p {
+    font-size: 15px;
+}
+
+.container.policy {
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+#note {
+    padding-top: 10px;
+}
+}
+
 
 @media only screen and (max-width:375px)  {
 

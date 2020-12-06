@@ -439,7 +439,7 @@ div.desc {
     padding-left: 10px;
     padding-bottom: 40px;
 }
-@media only screen and (max-width:320px) {
+@media screen and (min-width: 320px) and (max-width: 375px)  {
     
 a.navbar-brand.now {
        font-size: 23px;
@@ -465,10 +465,11 @@ a.navbar-brand.now {
 #features-header {
     margin-bottom: 20px;
     margin-top: 70px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h4.detailes {
+    font-size: 15px;
     padding-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -486,7 +487,7 @@ img {
 
 
 .dimg {
-    height: 170px;
+    height: 180px;
     width: 315px;
     margin-left: 2px;
     
@@ -537,7 +538,7 @@ div.stay {
 
 
 p.discription {
-    margin-top: 15px;
+    margin-top: 13px;
     margin-left: 5px;
     margin-right: 5px;
     padding-right: 0px;
@@ -563,35 +564,35 @@ div.feature-detailes {
 }
 
 #map {
-    height: 250px;
+    height: 170px;
 }
 
 #map1 {
-    height: 250px;
+    height: 170px;
 }
 
 #map2 {
-    height: 250px;
+    height: 170px;
 }
 
 #map3 {
-    height: 250px;
+    height: 170px;
 }
 
 #map5 {
-    height: 250px;
+    height: 170px;
 }
 
 #map4 {
-    height: 250px;
+    height: 170px;
 }
 
 #map5 {
-    height: 250px;
+    height: 170px;
 }
 
 #map6 {
-    height: 250px;
+    height: 170px;
 }
 
 .gallery {
@@ -737,10 +738,44 @@ p::before {
 #note {
     padding-top: 10px;
 }
+
+section.footer {
+    padding-bottom: 10px;
 }
 
+.container {
+    contain: layout;
+}
 
-@media only screen and (max-width:375px)  {
+.footer-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+    float: left;
+    
+}
+
+p.footer-content {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+}
+
+.comtainer-footer {
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+h4.footer-header {
+    font-size: 18px;
+}
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px)  {
 
 img.dimg {
     width: 370px;
@@ -748,10 +783,17 @@ img.dimg {
 }
 
  a.navbar-brand.now {
-       font-size: 23px;
+       font-size: 25px;
 }
 
+section#ccsearch {
+    margin-top: 0px;
+    padding-top: 170px;
+}
 
+#callout {
+    font-size: 35px;
+}
 
 .destination {
     font-size: 25px;
@@ -846,9 +888,449 @@ h4.footer-header {
     font-size: 18px;
 }
 
+p.footer-content.last1 {
+    padding-left: 100px;
+}
+
+p.footer-content.last2 {
+    padding-left: 90px;
+}
+
+p.footer-content.last3 {
+    padding-left: 80px;
+}
+
+p.footer-content.last4 {
+    padding-left: 80px;
+}
+
+p.footer-content.last5 {
+    padding-left: 80px;
+}
 section.footer {
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+
+p.discription {
+    padding-right: 0px;
+}
+
+#map {
+    height: 230px;
+}
+
+#map1 {
+    height: 230px;
+}
+
+#map2 {
+    height: 230px;
+}
+
+#map3 {
+    height: 230px;
+}
+
+#map5 {
+    height: 230px;
+}
+
+#map4 {
+    height: 230px;
+}
+
+#map5 {
+    height: 230px;
+}
+
+#map6 {
+    height: 230px;
+}
+
+div.gallery img {
+    width: 355px;
+}
+
+div.gallery {
+    width: 360px;
+}
+
+div.desc {
+    width: 355px;
+    font-size: 18px;
+}
+}
+@media screen and (min-width: 414px) and (max-width: 736px) {
+a.navbar-brand.now {
+        font-size: 30px;
+}
+
+.hero-image {    
+    height: 100vh;
+
+}
+
+.h4.footer-header {
+    font-size: 20px;
+}
+
+p.footer-content {
+    font-size: 15px;
+}
+
+section.footer {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+h2#features-header {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-family: 'News Cycle', sans-serif;
+}
+
+img.dimg {
+    width: 410px;
+    height: 275px;
+}
+
+.rating {
+    padding-top: 95px;
+    padding-left: 330px;
+    padding-right: 0px;
+}
+
+.stay {
+    padding-top: 70px;
+}
+
+h4.detailes {
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+
+#map {
+    height: 270px;
+}
+
+#map1 {
+    height: 270px;
+}
+
+#map2 {
+    height: 270px;
+}
+
+#map3 {
+    height: 270px;
+}
+
+#map5 {
+    height: 270px;
+}
+
+#map4 {
+    height: 270px;
+}
+
+#map5 {
+    height: 270px;
+}
+
+#map6 {
+    height: 270px;
+}
+
+.container.features {
+    margin-top: 0px;
+}
+
+div.container.last {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+section.restaurants {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
+h2#eating {
+    font-size: 27px;
+    margin-bottom: 20px;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.container.eat {
+    margin-top: 0;
+}
+
+div.gallery-box {
+    margin-bottom: 5px
+}
+
+div.container-fluid-gallery {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+h2#tgallery-head {
+    font-size: 26px;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px; 
+}
+
+div.gallery img {
+    width: 400px;
+    height: 250px;
+}
+
+div.gallery {
+    width: 410px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+div.desc {
+    width: 400px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+div.container.travell {
+    margin-top: 0px;
+}
+
+h2#aboutus-header {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-size: 26px;
+}
+
+p#statment {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 30px;
+}
+
+h3#review {
+    font-size: 25px;
+}
+
+section.customers-review {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+div.customer-review {
+    box-shadow: none;
+}
+
+div.container.review {
+    margin-top: 0px;
+}
+
+h3#important {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+p#important-p {
+    font-size: 15px;
+}
+
+h3#cancel{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+p#cancel-p {
+    font-size: 15px;
+}
+
+div.container.policy {
+    margin-top: 0px;
+}
+
+p.first {
+    font-size: 18px;
+}
+
+.row.cancel {
+    font-size: 15px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+h2#features-header {
+    font-size: 35px;
+    font-family: 'News Cycle', sans-serif;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+img.dimg {
+    width: 750px;
+}
+
+div.container.features {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ div.rating {
+    font-size: 25px;
+    padding-left: 595px;
+}
+
+div.stay {
+    font-size: 23px;
+    margin-top: -40px;
+}
+
+h4.detailes {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+p.discription {
+    font-size: 18px;
+}
+
+
+#map {
+    height: 470px;
+    width: 750px;
+}
+
+#map1 {
+    height: 470px;
+    width: 750px;
+}
+
+#map2 {
+    height: 470px;
+    width: 750px;
+}
+
+#map3 {
+    height: 470px;
+    width: 750px;
+}
+
+#map5 {
+    height: 470px;
+    width: 750px;
+}
+
+#map4 {
+    height: 470px;
+    width: 750px;
+}
+
+#map5 {
+    height: 470px;
+    width: 750px;
+}
+
+#map6 {
+    height: 470px;
+    width: 750px;
+}
+.container.features {
+    margin-top: 0px;
+}
+
+div.container.last {
+    margin-top: 0px; 
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+div.rating.last {
+    padding-left: 580px;
+}
+
+section.restaurants {
+    padding-bottom: 40px;
+}
+
+div.gallery img {
+    width: 260px;
+    height: 150px;
+}
+
+div.gallery {
+    width: 240px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 0;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+
+div.desc {
+    width: 240px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    font-weight: 600;
+    margin-bottom: -5px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+div.container.travell {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    
+}
+
+div.container-fluid-gallery {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+h2#tgallery-head {
+    margin-bottom: 15px;
+}
+
+h2#aboutus-header{
+    margin-bottom: 15px;
+}
+
+div.container.statment {
+        margin-top: 30px;
+}
+
+section.customers-review {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+}

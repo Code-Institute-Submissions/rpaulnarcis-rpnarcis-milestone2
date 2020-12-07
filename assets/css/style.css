@@ -98,23 +98,7 @@ p#callout-p {
     text-align: center;
     color: #fff;
     margin-bottom: 0px;
-    text-shadow: 10px #000;
-}
-
-.input-group {
-    width: 90%;
-    max-width: 500px;
-    border-radius: 30px;
-    background: #fff;
-    margin: auto;
-    padding: 2px;
-}
-
-.form-control {
-    border: 0;
-    border-radius: 30px;
-    margin: 2px;
-    box-shadow: none;
+    text-shadow: 2px 2px #000;
 }
 
 .input-group-text {
@@ -752,11 +736,12 @@ div.container-fluid.alert {
     padding-top: 20px;
     margin-top: 40px;
     margin-bottom: 0px;
+    position: relative;
 }
 
 p#before-callout {
     font-size: 20px;
-    margin-top: -60px;
+    margin-top: -40px;
 }
 
 h1.callout {

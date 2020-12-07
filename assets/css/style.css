@@ -75,7 +75,7 @@ video {
     font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
-    text-shadow: #000;
+    text-shadow: 2px 2px #000;
 }
 
 h1.callout {
@@ -83,13 +83,13 @@ h1.callout {
     text-align: center;
     letter-spacing: 4px;
     font-size: 70px;
-    text-shadow: #000 ;
+    text-shadow: 2px 2px #000 ;
 }
 
 p#callout-end {
     color: #fff;
     text-align: center;
-    text-shadow: #000;
+    text-shadow: 2px 2px #000;
     
 }
 
@@ -98,7 +98,7 @@ p#callout-p {
     text-align: center;
     color: #fff;
     margin-bottom: 0px;
-    text-shadow: #000;
+    text-shadow: 10px #000;
 }
 
 .input-group {
@@ -730,7 +730,11 @@ div.desc {
     padding-bottom: 40px;
 }
 @media screen and (min-width: 320px) and (max-width: 375px)  {
-    
+
+div#calculator {
+    display: none;
+}
+
 a.navbar-brand.now {
        font-size: 23px;
 }
@@ -743,8 +747,20 @@ a.navbar-brand.now {
     padding-top: 10px;
 }
 
-#callout {
-    font-size: 29px;
+div.container-fluid.alert {
+    font-size: 10px;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+p#before-callout {
+    font-size: 20px;
+    margin-top: -60px;
+}
+
+h1.callout {
+    font-size: 35px;
 }
 
 #ccsearch {
@@ -752,14 +768,16 @@ a.navbar-brand.now {
     padding-top: 180px;
 }
 
-#features-header {
+h2#features-header {
     margin-bottom: 20px;
-    margin-top: 70px;
-    font-size: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    margin-top: 50px;
 }
 
+
 h4.detailes {
-    font-size: 15px;
+    font-size: 17px;
     padding-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -776,10 +794,10 @@ img {
 }
 
 
-.dimg {
+img.dimg {
+    width: 350px;
     height: 180px;
-    width: 315px;
-    margin-left: 2px;
+    margin-left: 0px;
     
 }    
 
@@ -794,17 +812,17 @@ img {
 
 div.rating {
    
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 0px;
     padding-left: 240px;
     padding-right: 0px;
 }
 
-.destination {
-    padding-top: 30px;
+p.distination {
+    padding-top: 20px;
     padding-bottom: 10px;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 12px;
+    
 }
 
 .container.packages {
@@ -840,8 +858,8 @@ p.discription {
     font-size: 25px;
 }
 
-.restaurants {
-    padding-top: 80px;
+section.restaurants {
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 
@@ -894,7 +912,7 @@ div.feature-detailes {
     margin-bottom: 20px;
 }
 
-#tgallery-head {
+h2#tgallery-head {
     font-size: 25px;
     font-family: 'News Cycle', sans-serif;
     font-weight: 600;

@@ -1499,11 +1499,38 @@ p.first {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-h2#features-header {
+
+div#calculator {
+    display: none;
+}
+
+video: {
+    margin-top: 30px;
+    margin-right: 10px;
+    padding-right: 0px;
+    margin-left: 220px;
+}
+
+p#before-callout {
     font-size: 35px;
+}
+
+h1.callout {
+    font-size: 80px;
+}
+
+p#callout-p {
+    ont-size: 18px;
+}
+
+p#callout-end {
+    font-size: 18px;
+}
+h2#features-header {
     font-family: 'News Cycle', sans-serif;
-    margin-top: 90px;
-    margin-bottom: 40px;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 img.dimg {
@@ -1640,11 +1667,14 @@ div.container-fluid-gallery {
 }
 
 h2#tgallery-head {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 h2#aboutus-header{
     margin-bottom: 15px;
+    margin-top: 110px;
 }
 
 div.container.statment {

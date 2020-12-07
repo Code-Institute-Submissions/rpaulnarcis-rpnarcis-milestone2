@@ -61,22 +61,44 @@ a.navbar-brand.now {
     background-size: cover;
 }
 
+video {
+    margin-top: -240px;
+    margin-left: 250px;
+}
+
 #ccsearch {
     padding-top: 300px;
-    margin-top: 40px;
+    margin-top: -80px;
+}
+#before-callout {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: #000;
 }
 
-#callout {
-    font-family: 'Great Vibes', cursive;
-    text-align: center;
-    font-size: 45px;
+h1.callout {
     color: #fff;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 70px;
+    text-shadow: #000 ;
 }
 
-#callout-p {
+p#callout-end {
+    color: #fff;
+    text-align: center;
+    text-shadow: #000;
+    
+}
+
+p#callout-p {
+    margin-top: 25px;
     text-align: center;
     color: #fff;
-    font-size: 14px;
+    margin-bottom: 0px;
+    text-shadow: #000;
 }
 
 .input-group {

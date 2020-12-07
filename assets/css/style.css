@@ -1257,6 +1257,11 @@ div.desc {
 }
 }
 @media screen and (min-width: 414px) and (max-width: 736px) {
+
+div#calculator {
+    display: none;
+}
+
 a.navbar-brand.now {
         font-size: 30px;
 }
@@ -1264,6 +1269,23 @@ a.navbar-brand.now {
 .hero-image {    
     height: 100vh;
 
+}
+
+div.container-fluid.alert {
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+p.#before-callout {
+    font-size: 15px;
+    margin-top: -30px;
+}
+
+section#ccsearch {
+    padding-top: 120px;
+}
+
+h1.callout {
+    font-size: 45px;
 }
 
 .h4.footer-header {
@@ -1280,10 +1302,11 @@ section.footer {
 }
 
 h2#features-header {
-    margin-top: 70px;
     margin-bottom: 25px;
-    font-size: 26px;
+    font-size: 30px;
     font-family: 'News Cycle', sans-serif;
+    padding-top: 30px;
+    margin-top: 60px
 }
 
 img.dimg {
@@ -1349,12 +1372,13 @@ div.container.last {
 }
 
 section.restaurants {
-    padding-top: 70px;
     padding-bottom: 0px;
+    padding-top: 10px;
 }
 
 h2#eating {
-    font-size: 27px;
+    margin-top: -5px;
+    font-size: 30px;
     margin-bottom: 20px;
     font-family: 'News Cycle', sans-serif;
 }
@@ -1408,6 +1432,11 @@ h2#aboutus-header {
     margin-top: 80px;
     margin-bottom: 0px;
     font-size: 26px;
+    padding-top: 15px;
+}
+
+div.container.statment {
+    margin-top: 20px;
 }
 
 p#statment {

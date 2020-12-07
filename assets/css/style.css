@@ -177,6 +177,10 @@ footer {
 }
 /* packages */
 
+.container-fluid.alert {
+    text-align: center;
+}
+
 #calculator {
   background-color: #A8C99A;
   /*---------------------------

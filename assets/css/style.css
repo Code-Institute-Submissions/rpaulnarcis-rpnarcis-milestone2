@@ -1686,3 +1686,15 @@ section.customers-review {
     padding-bottom: 20px;
 }
 }
+
+@media screen and (min-width: 1280px) and (max-width: 800px) {
+    div#calculator{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 900px) {
+    div#calculator{
+        display:none;
+    }
+}

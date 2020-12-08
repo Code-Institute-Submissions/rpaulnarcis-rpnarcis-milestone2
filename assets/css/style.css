@@ -1275,7 +1275,7 @@ div.container-fluid.alert {
     font-size: 15px;
     padding-bottom: 0px;
 }
-p.#before-callout {
+p#before-callout {
     font-size: 15px;
     margin-top: -30px;
 }
@@ -1504,7 +1504,7 @@ div#calculator {
     display: none;
 }
 
-video: {
+video {
     margin-top: 30px;
     margin-right: 10px;
     padding-right: 0px;
@@ -1520,7 +1520,7 @@ h1.callout {
 }
 
 p#callout-p {
-    ont-size: 18px;
+    font-size: 18px;
 }
 
 p#callout-end {

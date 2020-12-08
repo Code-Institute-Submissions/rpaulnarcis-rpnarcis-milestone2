@@ -149,7 +149,7 @@ Was not able to get password validation through the bootstrap form model.
 - Selected Master Branch from the Source dropdown menu.
 - Clicked to confirm my selection.
 - rpaulnarcis/milestone1 is now live on GitHub Pages.
-- Your site is published at https://rpaulnarcis.github.io/milestone2/
+- Your site is published at https://rpaulnarcis.github.io/rpnarcis-milestone2
 
 ### **Authors:**
 - This project was created by Robert P Narcis an upcoming full-stack software developer.

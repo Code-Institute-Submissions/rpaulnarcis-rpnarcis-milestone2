@@ -120,8 +120,12 @@ a {
     padding: 40px 20px;
     background-color: #343a40;
     margin-top: 0px;
+    
 }
 
+section.footer {
+    padding-left:270px
+}
 .row.footer {
     margin-top: 30px;
     padding-top: 0px;
@@ -633,6 +637,9 @@ div.desc {
 }
 @media screen and (min-width: 320px) and (max-width: 375px)  {
 
+section.footer{
+    padding-left: 20px;
+}
 .container.calculator {
     display: none;
 }
@@ -732,6 +739,9 @@ p.distination {
     padding-bottom: 0px;
 }
 
+div.col-md-4.foot {
+    margin-bottom: 1px;
+}
 .footer {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -1176,6 +1186,10 @@ div.desc {
 }
 @media screen and (min-width: 414px) and (max-width: 736px) {
 
+section.footer {
+    padding-left: 40px;
+}
+
 .container.calculator {
     display: none;
 }
@@ -1418,8 +1432,20 @@ p.first {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
+.container {
+    contain: layout;
+}
+section.footer {
+    padding-left: 80px;
+}
+
 div#calculator {
     display: none;
+}
+video.d-none.d-md-block{
+    width: 200px;
+    margin-top: -500px;
+    margin-left: 545px;
 }
 
 video {
@@ -1608,12 +1634,19 @@ section.customers-review {
 
 @media screen and (min-width: 1280px) and (max-width: 800px) {
     div#calculator{
-        display: none;
-    }
+    display: none;
+}
+section.footer {
+    padding-left: 280px;
+}
 }
 
 @media screen and (min-width: 1400px) and (max-width: 900px) {
     div#calculator{
-        display:none;
-    }
+    display:none;
+}
+
+section.footer {
+    padding-left: 280px;
+}
 }

@@ -157,7 +157,7 @@ Was not able to get password validation through the bootstrap form model.
 Maps and markers were done by me.
 Easy Tutorials on YouTube Channel.
 ### **Content:**
-Calculator: https://codepen.io/BeeKey/pen/akqVpN.
+Calculator: https://codepen.
 Other content is taken from random places online.
 ### **Media:**
 - Some Images were taken Top destinations in the Caribbean.

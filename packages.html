@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Caribbean Dream</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("user_pH8NssZXgDZCxNaLe3keG");
+      })();
+    </script>
 </head>
-<body>
+<body onload="greetingMessage()">Align text
 <!-- Nav -->
 <nav class="container-fluid navbar bg-dark navbar-expand-sm fixed-top">
 <h1><a class="navbar-brand now" href="index.html">Caribbean Dream</a></h1>
@@ -34,44 +40,9 @@
     <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
     <p><strong>Get 30% on top destination</strong></p> <p>Book to take advantage of your 30% flat discount. Also 20% of all meals from restuarans marked on the map.</p>
   </div>
+</div>
+
 <!-- Features -->
-<div class="container calculator">
-<div class="calculator">
-  <div class="input" id="input"></div>
-  <div class="buttons">
-    <div class="operators">
-      <div>+</div>
-      <div>-</div>
-      <div>&times;</div>
-      <div>&divide;</div>
-    </div>
-    <div class="leftPanel">
-      <div class="numbers">
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-      </div>
-      <div class="numbers">
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-      </div>
-      <div class="numbers">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-      </div>
-      <div class="numbers">
-        <div>0</div>
-        <div>.</div>
-        <div id="clear">C</div>
-      </div>
-    </div>
-    <div class="equal" id="result">=</div>
-  </div>
-</div>
-</div>
-</div>
 <div class="container features first">
 <h2 id="features-header">Featured Destinations</h2>
     <div class="row">
@@ -87,7 +58,7 @@
                 <i class="fa fa-moon-o"><span>3 Nights</span></i>
             </div>
             <div class="feature-detailes">
-                <h4 class="detailes">British Virgin Islands:<span class="hotel"> Maria's By The Sea Hotel</span></h4>
+                <h4 class="detailes">British Virgin Islands:<span class="hotel">Maria's By The Sea Hotel</span></h4>
                 <p class="discription">Hmm, which of the British Virgin Islands (USVI) to choose for hammock-strewn beaches, conch fritters and preposterously blue water? Easy: any one, though each differs in personality. St Thomas has more resorts and water sports than you can shake a beach towel at and is the most developed island, with dizzying cruise-ship traffic. St John cloaks two-thirds of its area in parkland and sublime shores, ripe for hiking and snorkeling. It leads the way in environmental preservation and draws a more outdoorsy crowd. The largest Virgin, St Croix, pleases divers and drinkers with extraordinary scuba sites and rum factories. It's the furthest-flung island and offers the greatest immersion in local life.</p>
             </div>
         </div> 
@@ -274,7 +245,29 @@
 			</div>
 		</div>
 	</div>
-</div>                                                                                                                           
+</div>
+<section class="container">
+    <div class="row bg-color-contact">
+        <div class="col">
+            <h4 class="contact-heading uppercase text-center">Got a vacation in mind</h4>
+            <h5 class="uppercase text-center">Contact Us!</h5>
+            <br  /><b id="greeting"></b><br />
+            <div class="center-form">
+                <form id="myform" onsubmit="return sendMail(this);">
+                    <input type="text" name="name" id="fromName" class="form-control" placeholder="Name" required/>
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                    <textarea rows="3" name="message" id="msg" class="form-control" placeholder="message" required></textarea>
+                    <p id="para">Hello and welcome to Caribbean Dream.</p>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button id="button" onclick="change()" class="btn btn-primary">Send mail</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>        
+</section>
 <!-- Footer -->
 <footer>
 <section class="footer">
@@ -295,21 +288,21 @@
         <div class="col-md-4 foot">
             <h4 class="footer-header">Social</h4>
             <p class="footer-content last3"><a target="_blank" href="https://www.facebook.com/">
-							<i class="fa fab fa-facebook-square" aria-hidden="true"></i>
-							<span class="sr-only">facebook</span>
-						</a>Facebook</p>
+			<i class="fa fab fa-facebook-square" aria-hidden="true"></i>
+			<span class="sr-only">facebook</span>
+			</a>Facebook</p>
             <p class="footer-content last4"><a target="_blank" href="https://www.youtube.com/">
-							<i class="fa fab fa-youtube-square" aria-hidden="true"></i>
-							<span class="sr-only">youTube</span>
-						</a>YouTube</p>
+			<i class="fa fab fa-youtube-square" aria-hidden="true"></i>
+			<span class="sr-only">youTube</span>
+			</a>YouTube</p>
             <p class="footer-content last5"><a target="_blank" href="https://twitter.com/">
-							<i class="fa fab fa-twitter-square" aria-hidden="true"></i>
-							<span class="sr-only">Twitter</span>
-						</a>twitter</p>
+			<i class="fa fab fa-twitter-square" aria-hidden="true"></i>
+			<span class="sr-only">Twitter</span>
+			</a>twitter</p>
         </div>
     </div>
 </div>
-</section>    
+</section>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="assets/js/jquery.js"></script>
@@ -318,6 +311,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB528lxVkNVIsDURgN5EWJ7Ek5SmtBvy6Q&callback=initMap"></script>
+<script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
 

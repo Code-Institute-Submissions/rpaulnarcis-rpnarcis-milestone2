@@ -33,7 +33,7 @@ function initMap() {
     })(marker, i));
     }
 
-    var locations = [
+    var locations1 = [
     ['Coffee n Cream Restaurant & Lounge', 18.51449, -77.88126, 4, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Mystic India', 18.51501,-77.88083, 5, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Sunrise Catering and Fine Foods', 18.51436, -77.88057, 3, "http://maps.google.com/mapfiles/ms/micons/green.png"],
@@ -51,23 +51,23 @@ function initMap() {
 
     var marker, i;
 
-    for (i = 0; i < locations.length; i++) {
+    for (i = 0; i < locations1.length; i++) {
     marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        icon: locations[i][4],
-        title: locations[i][0],
+        position: new google.maps.LatLng(locations1[i][1], locations1[i][2]),
+        icon: locations1[i][4],
+        title: locations1[i][0],
         map: map
     });
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-        infowindow.setContent(locations[i][0]);
+        infowindow.setContent(locations1[i][0]);
         infowindow.open(map, marker);
         }
     })(marker, i));
     }
 
-    var locations = [
+    var locations2 = [
     ['De Shak Grill & Bar', 13.06690, -59.57124, 4, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Sea Fans Beach Bar and Restaurant', 13.0667,-59.56879, 5, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Jade Gardens Chinese', 13.06742, -59.56953, 3, "http://maps.google.com/mapfiles/ms/micons/green.png"],
@@ -85,23 +85,23 @@ function initMap() {
 
     var marker, i;
 
-    for (i = 0; i < locations.length; i++) {
+    for (i = 0; i < locations2.length; i++) {
     marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        icon: locations[i][4],
-        title: locations[i][0],
+        position: new google.maps.LatLng(locations2[i][1], locations2[i][2]),
+        icon: locations2[i][4],
+        title: locations2[i][0],
         map: map
     });
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-        infowindow.setContent(locations[i][0]);
+        infowindow.setContent(locations2[i][0]);
         infowindow.open(map, marker);
         }
     })(marker, i));
     }
 
-    var locations = [
+    var locations3 = [
     ['Steak Social', 19.33123, -81.38091, 4, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Luca Italian',  19.33131, -81.38153, 5, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Canton Shinese', 19.33183, -81.38095, 3, "http://maps.google.com/mapfiles/ms/micons/green.png"],
@@ -119,23 +119,23 @@ function initMap() {
 
     var marker, i;
 
-    for (i = 0; i < locations.length; i++) {
+    for (i = 0; i < locations3.length; i++) {
     marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        icon: locations[i][4],
-        title: locations[i][0],
+        position: new google.maps.LatLng(locations3[i][1], locations3[i][2]),
+        icon: locations3[i][4],
+        title: locations3[i][0],
         map: map
     });
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-        infowindow.setContent(locations[i][0]);
+        infowindow.setContent(locations3[i][0]);
         infowindow.open(map, marker);
         }
     })(marker, i));
     }
 
-     var locations = [
+     var locations4 = [
     ['4 Senses', 14.60218, -61.07293, 4, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['La Table de Marcel',  14.60222, -61.07274, 5, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Restaurants Bar La Croisiere', 14.60360, -61.07242, 3, "http://maps.google.com/mapfiles/ms/micons/green.png"],
@@ -153,23 +153,23 @@ function initMap() {
 
     var marker, i;
 
-    for (i = 0; i < locations.length; i++) {
+    for (i = 0; i < locations4.length; i++) {
     marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        icon: locations[i][4],
-        title: locations[i][0],
+        position: new google.maps.LatLng(locations4[i][1], locations4[i][2]),
+        icon: locations4[i][4],
+        title: locations4[i][0],
         map: map
     });
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-        infowindow.setContent(locations[i][0]);
+        infowindow.setContent(locations4[i][0]);
         infowindow.open(map, marker);
         }
     })(marker, i));
     }
 
-     var locations = [
+     var locations5 = [
     ['Hung paradise', 12.51684, -70.03688, 4, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['The Dutch Pancakehouse',  12.51650, -70.03723, 5, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Hopi Bon Grill', 12.51682, -70.03713, 3, "http://maps.google.com/mapfiles/ms/micons/green.png"],
@@ -187,23 +187,23 @@ function initMap() {
 
     var marker, i;
 
-    for (i = 0; i < locations.length; i++) {
+    for (i = 0; i < locations5.length; i++) {
     marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        icon: locations[i][4],
-        title: locations[i][0],
+        position: new google.maps.LatLng(locations5[i][1], locations5[i][2]),
+        icon: locations5[i][4],
+        title: locations5[i][0],
         map: map
     });
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-        infowindow.setContent(locations[i][0]);
+        infowindow.setContent(locations5[i][0]);
         infowindow.open(map, marker);
         }
     })(marker, i));
 }
 
- var locations = [
+ var locations6 = [
     ['Chefs BBQ', 11.15782, -60.83649, 4, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Arabian Delight Resturant & Bar',  11.15784, -60.83629, 5, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Jade Monkey Casino Bar and Grill', 11.15729, -60.83706, 3, "http://maps.google.com/mapfiles/ms/micons/green.png"],
@@ -221,17 +221,17 @@ function initMap() {
 
     var marker, i;
 
-    for (i = 0; i < locations.length; i++) {
+    for (i = 0; i < locations6.length; i++) {
     marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        icon: locations[i][4],
-        title: locations[i][0],
+        position: new google.maps.LatLng(locations6[i][1], locations6[i][2]),
+        icon: locations6[i][4],
+        title: locations6[i][0],
         map: map
     });
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-        infowindow.setContent(locations[i][0]);
+        infowindow.setContent(locations6[i][0]);
         infowindow.open(map, marker);
         }
     })(marker, i));

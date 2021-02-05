@@ -220,6 +220,7 @@ div.container-fluid.alert {
 i.fa.far.fa-money-bill-alt {
     font-size: 20px;
     margin-left: 25px;
+    padding-top: 10px;
 }
 
 h2#features-header {
@@ -1183,13 +1184,18 @@ div.container-fluid.alert {
     font-size: 15px;
     padding-bottom: 0px;
 }
+
+div.container-fluid.alert-restaurants {
+    margin-top: 50px;
+    font-size: 15px;
+}
 p#before-callout {
     font-size: 15px;
     margin-top: -10px;
 }
 
 section#ccsearch {
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 h1.callout {
@@ -1213,8 +1219,8 @@ h2#features-header {
     margin-bottom: 25px;
     font-size: 30px;
     font-family: 'News Cycle', sans-serif;
-    padding-top: 30px;
-    margin-top: 60px
+    padding-top: 20px;
+    margin-top: 20px
 }
 
 img.dimg {
@@ -1223,13 +1229,21 @@ img.dimg {
 }
 
 .rating {
-    padding-top: 95px;
+    padding-top: 0px;
     padding-left: 330px;
     padding-right: 0px;
+    margin-top: 0;
 }
 
 .stay {
     padding-top: 70px;
+    font-size: 17px;
+}
+
+i.fa.far.fa-money-bill-alt {
+    font-size: 20px;
+    margin-left: 10px;
+
 }
 
 h4.detailes {
@@ -1285,6 +1299,7 @@ section.restaurants {
 }
 
 h2#eating {
+    padding-top: 20px;
     margin-top: -5px;
     font-size: 30px;
     margin-bottom: 20px;
@@ -1403,6 +1418,25 @@ p.first {
     font-size: 15px;
     margin-left: 1px;
     margin-right: 1px;
+}
+
+form#myform {
+    width: 280px;
+}
+
+div.center-form {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 130px;
+}
+
+h4.contact-heading.uppercase.text-center {
+    margin-bottom: 0px;
+}
+
+h5.uppercase.text-center {
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 }
 

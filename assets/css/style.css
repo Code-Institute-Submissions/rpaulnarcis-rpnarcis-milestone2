@@ -856,6 +856,7 @@ p::before {
 
 #important-p {
     font-size: 15px;
+    
 }
 
 #cancel {
@@ -999,6 +1000,13 @@ img.dimg {
     padding-top: 0px;
 }
 
+div.rating {
+    margin-top: 8px;
+}
+
+i.fa.far.fa-money-bill-alt {
+    font-size: 18px;
+}
 .container {
     contain: layout;
 }
@@ -1012,10 +1020,11 @@ img.dimg {
 
 .stay {
     margin-top: -95px;
+    font-size: 15px;
 }
 
 .rating {
-    margin-top: -95px;
+    margin-top: -90px;
 }
 
 h4.detailes {
@@ -1030,6 +1039,17 @@ span.hotel {
     font-size: 13px;
 }
 
+p#import-p {
+    padding-right: 10px;
+}
+
+section.cancellation-policy {
+    padding-right: 10px;
+}
+
+section {
+    padding-right: 10px;
+}
 .footer-header {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1130,6 +1150,14 @@ div.gallery {
 div.desc {
     width: 355px;
     font-size: 18px;
+}
+
+form#myform {
+    width: 240px;
+}
+
+div.center-form {
+    margin-right: 110px;
 }
 }
 @media screen and (min-width: 414px) and (max-width: 736px) {

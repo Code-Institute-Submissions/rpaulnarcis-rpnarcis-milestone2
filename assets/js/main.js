@@ -4,7 +4,7 @@ function initMap() {
     ['Simply Delicious', 18.42215,-64.61852, 5, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['Sweet and Savoury', 18.42082, -64.61808, 3, "http://maps.google.com/mapfiles/ms/micons/green.png"],
     ['A taste of india',18.41902, -64.61858, 2, "http://maps.google.com/mapfiles/ms/micons/green.png"],
-    ['Marias By The Sea', 18.42090, -64.61671, 1, "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"]
+    ['Marias By The Sea Hotel', 18.42090, -64.61671, 1, "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"]
     ];
 
     var map = new google.maps.Map(document.getElementById('map'), {

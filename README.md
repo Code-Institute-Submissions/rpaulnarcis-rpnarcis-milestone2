@@ -33,7 +33,8 @@ Gallery Page<img src="assets/images/Gallery wireframe.png">
 About Us Page<img src="assets/images/About Us wireframe.png"> 
 ### **Features:**
 #### Features presented across the project
-- Navbar - Responsive, toggles to a hamburger menu at a width of 575 pixels. All links are a bright pink but go to a dark pink once clicked. There are links to all of the pages as well as a sign-in/sign-up button. The main logo acts as a link back to the home page.
+- Navbar - Responsive, toggles to a hamburger menu at a width of 575 pixels. All links work when clicked. There are links to all of the pages as well as a sign-in/sign-up button. The main logo acts as a link back to the home page.
+- There is a submission email form at the bottom of the Packages page. 
 - Footer comprises social links, contact information, as well as hours of operation.
 - Consistent images are used throughout the project, which gives it a humane feel and helps to invoke user emotions. All images are relevant to the content.
 - The contrast of fonts between header and proceeding text, both Roboto and Exo help bring the page to life.
@@ -42,11 +43,11 @@ About Us Page<img src="assets/images/About Us wireframe.png">
 #### Home page
 - The home page has a warm feel to it with a hero image of a Caribbean beach resort, a video is loaded one can hear the sound of a steel pan as if you were already there.
 #### Packages page 
-- this page outline all the packages available. it gives both a visual and geological field to it with marked maps outlining the restaurants we partner with where a discount is possible.
+- This page outline all the packages available. it gives a visual, geological and responsive feel where the user can click on the  map markers and get the name of the restaurants or hotels we partner with where a discount is possible.
 #### Restuarants page
 - A clear outline of the eating establishments we do business with displayed in a gallery format with each image linked to the website's home page.
 #### Gallery page
-- a beautiful image gallery display just some of the marvelous wonders that the Caribbean has to offer.
+- A beautiful image gallery display just some of the marvelous wonders that the Caribbean has to offer.
 #### about Us page
 - The about page is home to our mission statement followed by some Customers Reviews and our cancellation policies and practices.
 #### Features Left to Implement
@@ -63,7 +64,9 @@ A places API map that searches for the locations by text.
     - Used with Bootstrap to make the navbar responsive.
 - [JavaScript](https://www.javascript.com/)
     - Used for the Bootstrap navbar extending collapse plugin to implement responsive behavior.
-    - Used for the calculator so members can calculate the prices where discounts are given.
+    - Used for the map and responsive markers, also for the email submission form at the bottom of the Packages page.
+- [Google Maps](https://developers.google.com/maps/documentation/geocoding/get-api-key)
+    - Used for Google Maps.     
 - [Google Fonts](https://fonts.google.com/)
     - Used to obtain the fonts linked in the header, fonts used were Great Vibes'and News Cycle.
 - [Font Awesome](https://fontawesome.com/)
@@ -76,7 +79,7 @@ A places API map that searches for the locations by text.
     - Used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 - [Gitpod](https://www.gitpod.io/)
     - Used as the development environment.
-- [Balsamiq] 
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiA9vOABhBfEiwATCi7GOYzIjm5XFGisQ9FvX21R-p06hDcK_2L-IcGCsdJsKQ8joZFzTHuMBoC9uUQAvD_BwE) 
     - Used to create Wireframes for the project.
 - [AutoPrefixer](https://autoprefixer.github.io/)
     - Used to parse my CSS and vendor prefixes.
@@ -93,9 +96,9 @@ A places API map that searches for the locations by text.
 
 - This project is very exciting with lots of images that tell lots of stories while the untamed beauty of the Caribbean unfoldes right before your eyes.
 
-It's Not a complicated site at all one can easily pick back up where they left off.
+- It's Not a complicated site at all one can easily pick back up where they left off.
 
-- On visiting one will definitely want to travel even if the thought did not exist in the mind before.
+- On visiting one will definitely want to travel even if the thought did not exist in their mind before wether it is one of our preexisting packages or a destination of their own choice.
 
 - Yes one will seldom get tired of visiting as the landscape and array of images and stories are vast.
 #### Further Testing
@@ -123,19 +126,22 @@ It's Not a complicated site at all one can easily pick back up where they left o
 - Only four links are present.- All four links work.
 - The menu collapsed back when I click on all four links.
 - The menu collapsed back when I click on the hamburger menu.
+- All map markers respond with information when clicked. 
 - All five links work.
 #### Navigation on Tablet:
- The menu is not collapsable no hamburger is present.
-- There are five links and a log-in button. 
-- All five links work.
+- The menu is not collapsable no hamburger is present.
+- There are five links all links work. 
+- All map markers respond with information when clicked.
 #### Navigation on Desktop
 - The menu is not collapsable no hamburger is present.
--There are five links and a log-in button.
-- All five links work.
+- There are five links all five links work.
+- All map markers respond with information when clicked.
 #### Sign-Up /Sign button
 - One exists in the right corner through the bootstrap model.
+#### EMail submission form
+- This form workes well through the use of emailjs.
 #### Known Bugs and fixes
-The project runs a little slow once the video on the home page is implemented.
+- The project runs a little slow once the video on the home page is starts, I have written some code in jquery to try to correct this..
 Was not able to get password validation through the bootstrap form model.
 ### **Deployment:**
 - I Configured my milestone 2 Project Caribbean Dream website to display to GitHub pages and any file or files I push to the master.
@@ -154,11 +160,11 @@ Was not able to get password validation through the bootstrap form model.
 ### **Authors:**
 - This project was created by Robert P Narcis an upcoming full-stack software developer.
 ### **Credits:**
-Maps and markers were done by me.
-Easy Tutorials on YouTube Channel.
+- Maps and markers were done by me.
+- Easy Tutorials on YouTube Channel.
 ### **Content:**
-Calculator: https://codepen.
-Other content is taken from random places online.
+- Some of the code used in the email form greeting: https://www.youtube.com/watch?v=EiOtxmRFi10.
+- The main emailjs code taken from codeinstitute tutorial.
 ### **Media:**
 - Some Images were taken Top destinations in the Caribbean.
 - Video came from youtube.

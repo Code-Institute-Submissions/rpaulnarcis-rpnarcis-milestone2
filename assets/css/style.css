@@ -1483,8 +1483,16 @@ p#callout-end {
 h2#features-header {
     font-family: 'News Cycle', sans-serif;
     font-size: 40px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 50px;
+}
+
+i.fa.far.fa-money-bill-alt {
+    font-size: 25px;
+}
+
+p.discription {
+    width: 750px;
 }
 
 img.dimg {
@@ -1639,6 +1647,27 @@ div.container.statment {
 section.customers-review {
     padding-top: 40px;
     padding-bottom: 20px;
+}
+
+section.container {
+    margin-top: 40px;
+}
+
+h5.uppervase.text-center {
+    margin-bottom: -15px;
+}
+
+section {
+    margin-right: 1px;
+}
+
+b#greeting {
+    margin-top: -10px;
+}
+
+div.center-form {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 }
 

@@ -48,7 +48,7 @@ function greetingMessage() {
 }
 
 function clear(){
-  		document.getElementById('myform').value = ''
-  }
+  	document.getElementById('myform').value = ''
+}
 
 
